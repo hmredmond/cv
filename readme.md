@@ -1,4 +1,6 @@
-## Workflow Subtree
+# Workflow Subtree
+
+This is a shared workflow for Jekyll Sites. 
 
 This folder should not be deployed to the server. It is for Site Development only. 
 
@@ -21,6 +23,3 @@ gulp test - accessibility, html and js linting and audits
 - accessibility audit
 - js linting
 - html linting (bootstrap specific and general html)
-
-
-
