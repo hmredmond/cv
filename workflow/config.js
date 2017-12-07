@@ -7,8 +7,8 @@
  */
 
 config = {
-	"sassDir": "assets/_scss",
-	"cssDir": "assets/css", 
-	"deployDir" : "_site", 
-	"sourceDir" : "/"
+	"sassDir": "assets/_scss/",
+	"cssDir": "assets/css/", 
+	"deployDir" : "_site/", 
+	"sourceDir" : "../"
 }

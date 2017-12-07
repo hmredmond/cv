@@ -13,23 +13,43 @@ var a11y = require('gulp-a11y');
 var access = require('gulp-accessibility');
 var rename = require("gulp-rename");
 
-/* detailed accessibility check - output to reports folder in the workflow folder */
-gulp.task('accessibility-audit', function() {
-    return gulp.src('./_site/**/*.html')
+/* detailed accessibility check - output to reports folder in the workflow folder 
+
+Accessibility level options:
+WCAG2A, WCAG2AA, WCAG2AAA, and Section508
+
+Report types:
+txt, json or csv
+
+*/
+gulp.task('accessibility:audit', function() {
+    return gulp.src(config.sourceDir + '_site/**/*.html')
       .pipe(access({
-        force: true
+        force: true, 
+        accessibilityLevel: 'WCAG2AAA', 
+        verbose: true, 
+        browser: false, 
+        reportLevels: {
+          notice: false,
+          warning: true,
+          error: true
+        }
       }))
       .on('error', console.log)
-      .pipe(access.report({reportType: 'txt'}))
+      .pipe(access.report(
+          {
+            reportType: 'txt'
+          }
+        ))
       .pipe(rename({
         extname: '.txt'
       }))
-      .pipe(gulp.dest('./workflow/reports'));
+      .pipe(gulp.dest('accessibility_reports'));
   });
 
   /* less detailed accessibility check */
-gulp.task('accessibility-audit-overview', function () {
- return gulp.src('./_site/**/*.html')
+gulp.task('accessibility:summary', function () {
+ return gulp.src(config.sourceDir + '_site/**/*.html')
    .pipe(a11y())
    .pipe(a11y.reporter());
 });

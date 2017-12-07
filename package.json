@@ -1,7 +1,7 @@
 {
-  "name": "creative-jekyll-cms-seed",
+  "name": "creative-gulp-UI-workflow",
   "version": "0.0.1",
-  "description": "Jekyll source for Cyber Essentials cms site",
+  "description": "creative UI Workflow tasks based on Gulp",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp babel && gulp uglify && jekyll serve --config _config.yml -d _site",
@@ -16,7 +16,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://engineering/bitbucket/scm/creative/creative-jekyll-cms-seed.git"
+    "url": "https://engineering/bitbucket/projects/CREATIVE/repos/creative-gulp-ui-workflow/"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

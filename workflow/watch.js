@@ -11,6 +11,6 @@
 var gulp = require('gulp');
 
 gulp.task('watch', function() {
-	gulp.watch("assets/js/_src/*.js", ['babel']);
-	gulp.watch(config.sassDir + '/**/*.scss', ['styles', 'minify-css']);
+	gulp.watch(config.sourceDir + "assets/js/_src/*.js", ['babel:transpile', 'uglify']);
+	gulp.watch(config.sourceDir + config.sassDir + '/**/*.scss', ['sass', 'minify-css']);
 });

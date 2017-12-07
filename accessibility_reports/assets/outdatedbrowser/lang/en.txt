@@ -1,0 +1,12 @@
+/Users/hmredmond/code/creative-jekyll-cms-seed/_site/assets/outdatedbrowser/lang/en.html
+heading|issue|element|id|class|line|column|description
+ERROR|WCAG2AAA.Principle2.Guideline2_4.2_4_2.H25.1.NoTitleEl|<head></head>|||1|0|A title should be provided for the document, using a non-empty title element in the head section.
+ERROR|WCAG2AAA.Principle3.Guideline3_1.3_1_1.H57.2|<html><head></head><body><h6>Your browser is out of date!</h6>
+ <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+ <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">×</a></p>
+<script class="jsdom" src="/Users/hmredmond/code/creative-jekyll-cms-seed/workflow/node_modules/access-sniff/dist/HTMLCS.min.js"></script></body></html>|||1|0|The html element should have a lang or xml:lang attribute which describes the language of the document.
+ERROR|WCAG2AAA.Principle1.Guideline1_3.1_3_1_AAA.G141|<h6>Your browser is out of date!</h6>|||1|1|The heading structure is not logically nested. This h6 element appears to be the primary document heading, so should be an h1 element.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h6>Your browser is out of date!</h6>|||1|1|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>|||2|1|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a>|btnUpdateBrowser||2|56|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="#" id="btnCloseUpdateBrowser" title="Close">×</a>|btnCloseUpdateBrowser||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.

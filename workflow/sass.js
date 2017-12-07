@@ -20,15 +20,12 @@ var $ = require('gulp-load-plugins')({
 
 //styles - compiles styles from scss and includes 
 //the json colours
-gulp.task('styles', ['styles:sass'], function() {
+gulp.task('sass', ['sass:compile'], function() {
   gulp.run('minify-css');
-
 });
 
-gulp.task('styles:sass', function() {
-
-  return gulp.src([config.sassDir + '/*.scss'])
-  //.pipe($.sourcemaps.init())  
+gulp.task('sass:compile', () => {
+  return gulp.src([config.sourceDir + config.sassDir + '*.scss'])
   .pipe(sassGlob())    
     .pipe($.sass({
       style: 'expanded',
@@ -38,18 +35,16 @@ gulp.task('styles:sass', function() {
       console.error(err.toString());
       this.emit('end');
     })
-    //.pipe($.sourcemaps.write())
+    .pipe($.using())
     .pipe($.autoprefixer())
-    .pipe(gulp.dest(config.cssDir));
+    .pipe(gulp.dest('../' + config.sourceDir + config.cssDir));
 });
 
 
 gulp.task('minify-css', () => {
-  return gulp.src([config.cssDir + '/style.css',config.cssDir + '/bootstrap.css' ])
+  return gulp.src([config.sourceDir + config.cssDir + '/style.css',config.sourceDir + config.cssDir + '/bootstrap.css' ])
   .pipe($.using())
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe($.rename({ extname: '.min.css' }))
-    .pipe(gulp.dest(config.cssDir))
-    
-});
-  
+    .pipe(gulp.dest('../' + config.sourceDir + config.cssDir))
+});  

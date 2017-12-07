@@ -1,0 +1,340 @@
+/Users/hmredmond/code/creative-jekyll-cms-seed/_site/2017/11/01/The-Third-Post.html
+heading|issue|element|id|class|line|column|description
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour|<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#84ccf2">|||27|2|Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.
+ERROR|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H42.2|<h1 class="sr-only site-logo-text"></h1>||sr-only site-logo-text|71|16|Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-nav">
+                        
+                        Menu <span><svg focusable="false" tabindex="-1" sviewbox="0 0 6 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Chevron arror</title> 
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-513.000000, -473.000000)" fill="#0B0C0C">
+            <g transform="translate(190.000000, 430.000000)">
+                <g transform="translate(274.000000, 37.000000)">
+                    <polygon points="49 6 55 6 52.1955181 12"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+                        </span>
+
+                </button>||navbar-toggle collapsed|1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<title>Chevron arror</title>|||82|4|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="/" title="Home">Home</a>|||105|40|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="/about" title="About">About</a>|||108|40|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p class="left post-date">01 November 2017</p>||left post-date|127|8|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h1 class="block-header">Third Post</h1>||block-header|128|8|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<div class="summary-intro">Sample Markdown</div>||summary-intro|135|10|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h1 id="h1-heading-8-">h1 Heading 8-)</h1>|h1-heading-8-||141|16|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="h2-heading">h2 Heading</h2>|h2-heading||142|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h3 id="h3-heading">h3 Heading</h3>|h3-heading||143|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h4 id="h4-heading">h4 Heading</h4>|h4-heading||144|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h5 id="h5-heading">h5 Heading</h5>|h5-heading||145|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h6 id="h6-heading">h6 Heading</h6>|h6-heading||146|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="horizontal-rules">Horizontal Rules</h2>|horizontal-rules||148|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="typographic-replacements">Typographic replacements</h2>|typographic-replacements||156|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Enable typographer option to see result.</p>|||158|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>(c) (C) (r) (R) (tm) (TM) (p) (P) +-</p>|||160|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>test.. test… test….. test?….. test!….</p>|||162|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>!!!!!! ???? ,,  – —</p>|||164|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>“Smartypants, double quotes” and ‘single quotes’</p>|||166|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="emphasis">Emphasis</h2>|emphasis||168|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H42|<p><strong>This is bold text</strong></p>|||170|0|Heading markup should be used if this content is intended as a heading.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<strong>This is bold text</strong>|||170|3|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H42|<p><strong>This is bold text</strong></p>|||170|0|Heading markup should be used if this content is intended as a heading.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<strong>This is bold text</strong>|||170|3|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H42|<p><em>This is italic text</em></p>|||174|0|Heading markup should be used if this content is intended as a heading.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<em>This is italic text</em>|||174|3|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H42|<p><em>This is italic text</em></p>|||174|0|Heading markup should be used if this content is intended as a heading.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<em>This is italic text</em>|||174|3|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<del>Strikethrough</del>|||178|3|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="blockquotes">Blockquotes</h2>|blockquotes||180|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Blockquotes can also be nested…</p>|||183|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>…by using additional greater-than signs right next to each other…</p>|||185|4|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>…or with spaces between arrows.</p>|||187|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="lists">Lists</h2>|lists||192|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Unordered</p>|||194|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Create a list by starting a line with <code class="highlighter-rouge">+</code>, <code class="highlighter-rouge">-</code>, or <code class="highlighter-rouge">*</code></li>|||197|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<code class="highlighter-rouge">+</code>||highlighter-rouge|197|44|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<code class="highlighter-rouge">-</code>||highlighter-rouge|197|86|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<code class="highlighter-rouge">*</code>||highlighter-rouge|197|131|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Sub-lists are made by indenting 2 spaces:
+    <ul>
+      <li>Marker character change forces new list start:
+        <ul>
+          <li>Ac tristique libero volutpat at</li>
+          <li>Facilisis in pretium nisl aliquet</li>
+          <li>Nulla volutpat aliquam velit</li>
+        </ul>
+      </li>
+    </ul>
+  </li>|||198|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Marker character change forces new list start:
+        <ul>
+          <li>Ac tristique libero volutpat at</li>
+          <li>Facilisis in pretium nisl aliquet</li>
+          <li>Nulla volutpat aliquam velit</li>
+        </ul>
+      </li>|||200|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Ac tristique libero volutpat at</li>|||202|10|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Facilisis in pretium nisl aliquet</li>|||203|10|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Nulla volutpat aliquam velit</li>|||204|10|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Very easy!</li>|||209|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Ordered</p>|||212|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Lorem ipsum dolor sit amet</li>|||215|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>Consectetur adipiscing elit</li>|||216|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Integer molestie lorem at massa</p>|||218|4|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>You can use sequential numbers…</li>|||220|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>…or keep all the numbers as <code class="highlighter-rouge">1.</code></li>|||221|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<code class="highlighter-rouge">1.</code>||highlighter-rouge|221|34|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Start numbering with offset:</p>|||224|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>foo</li>|||227|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>bar</li>|||228|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="code">Code</h2>|code||231|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Inline <code class="highlighter-rouge">code</code></p>|||233|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<code class="highlighter-rouge">code</code>||highlighter-rouge|233|10|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Indented code</p>|||235|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code>|||237|54|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Block code “fences”</p>|||244|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<code>Sample text here...
+</code>|||246|54|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Syntax highlighting</p>|||250|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="kd">var</span>||kd|252|72|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="nx">foo</span>||nx|252|100|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="o">=</span>||o|252|128|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="kd">function</span>||kd|252|153|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">(</span>||p|252|186|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="nx">bar</span>||nx|252|210|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">)</span>||p|252|237|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">{</span>||p|252|262|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="k">return</span>||k|253|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="nx">bar</span>||nx|252|210|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="o">++</span>||o|253|59|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">;</span>||p|253|84|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">};</span>||p|254|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="nx">console</span>||nx|256|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">.</span>||p|256|31|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="nx">log</span>||nx|256|55|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">(</span>||p|252|186|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="nx">foo</span>||nx|252|100|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">(</span>||p|252|186|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="mi">5</span>||mi|256|157|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">));</span>||p|256|182|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="tables">Tables</h2>|tables||260|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H73.3.NoSummary|<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>data</td>
+      <td>path to data files to supply the data that will be passed into templates.</td>
+    </tr>
+    <tr>
+      <td>engine</td>
+      <td>engine to be used for processing templates. Handlebars is the default.</td>
+    </tr>
+    <tr>
+      <td>ext</td>
+      <td>extension to be used for dest files.</td>
+    </tr>
+  </tbody>
+</table>|||262|0|If this table is a data table, consider using the summary attribute of the table element to give an overview of this table.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H39.3.NoCaption|<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>data</td>
+      <td>path to data files to supply the data that will be passed into templates.</td>
+    </tr>
+    <tr>
+      <td>engine</td>
+      <td>engine to be used for processing templates. Handlebars is the default.</td>
+    </tr>
+    <tr>
+      <td>ext</td>
+      <td>extension to be used for dest files.</td>
+    </tr>
+  </tbody>
+</table>|||262|0|If this table is a data table, consider using a caption element to the table element to identify this table.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<th>Option</th>|||265|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<th>Description</th>|||266|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td>data</td>|||271|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td>path to data files to supply the data that will be passed into templates.</td>|||272|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td>engine</td>|||275|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td>engine to be used for processing templates. Handlebars is the default.</td>|||276|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td>ext</td>|||279|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td>extension to be used for dest files.</td>|||280|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Right aligned columns</p>|||285|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H73.3.NoSummary|<table>
+  <thead>
+    <tr>
+      <th "text-align:="" right"="">Option</th>
+      <th "text-align:="" right"="">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td "text-align:="" right"="">data</td>
+      <td "text-align:="" right"="">path to data files to supply the data that will be passed into templates.</td>
+    </tr>
+    <tr>
+      <td "text-align:="" right"="">engine</td>
+      <td "text-align:="" right"="">engine to be used for processing templates. Handlebars is the default.</td>
+    </tr>
+    <tr>
+      <td "text-align:="" right"="">ext</td>
+      <td "text-align:="" right"="">extension to be used for dest files.</td>
+    </tr>
+  </tbody>
+</table>|||1|0|If this table is a data table, consider using the summary attribute of the table element to give an overview of this table.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H39.3.NoCaption|<table>
+  <thead>
+    <tr>
+      <th "text-align:="" right"="">Option</th>
+      <th "text-align:="" right"="">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td "text-align:="" right"="">data</td>
+      <td "text-align:="" right"="">path to data files to supply the data that will be passed into templates.</td>
+    </tr>
+    <tr>
+      <td "text-align:="" right"="">engine</td>
+      <td "text-align:="" right"="">engine to be used for processing templates. Handlebars is the default.</td>
+    </tr>
+    <tr>
+      <td "text-align:="" right"="">ext</td>
+      <td "text-align:="" right"="">extension to be used for dest files.</td>
+    </tr>
+  </tbody>
+</table>|||1|0|If this table is a data table, consider using a caption element to the table element to identify this table.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<th "text-align:="" right"="">Option</th>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<th "text-align:="" right"="">Description</th>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td "text-align:="" right"="">data</td>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td "text-align:="" right"="">path to data files to supply the data that will be passed into templates.</td>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td "text-align:="" right"="">engine</td>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td "text-align:="" right"="">engine to be used for processing templates. Handlebars is the default.</td>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td "text-align:="" right"="">ext</td>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<td "text-align:="" right"="">extension to be used for dest files.</td>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="links">Links</h2>|links||310|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="http://dev.nodeca.com">link text</a>|||312|3|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="http://nodeca.github.io/pica/demo/" title="title text!">link with title</a>|||314|3|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</p>|||316|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="images">Images</h2>|images||318|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Like links, Images also have a footnote style syntax</p>|||323|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>With a reference later in the document defining the URL location:</p>|||327|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h2 id="plugins">Plugins</h2>|plugins||329|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>The killer feature of <code class="highlighter-rouge">markdown-it</code> is very effective support of
+<a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin">syntax plugins</a>.</p>|||331|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<code class="highlighter-rouge">markdown-it</code>||highlighter-rouge|331|25|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin">syntax plugins</a>|||332|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-emoji">Emojies</a>|||334|17|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</p>|||337|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Shortcuts (emoticons): :-) :-( 8-) ;)</p>|||339|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output">how to change output</a> with twemoji.</p>|||342|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-emoji#change-output">how to change output</a>|||342|7|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h3 id="subscript--superscript"><a href="https://github.com/markdown-it/markdown-it-sub">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup">Superscript</a></h3>|subscript--superscript||344|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-sub">Subscript</a>|||344|32|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-sup">Superscript</a>|||344|105|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>19^th^</li>|||347|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<li>H~2~O</li>|||348|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-ins">&lt;ins&gt;</a>|||351|13|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>++Inserted text++</p>|||353|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-mark">&lt;mark&gt;</a>|||355|14|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>==Marked text==</p>|||357|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-footnote">Footnotes</a>|||359|19|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Footnote 1 link<sup id="fnref:first"><a href="#fn:first" class="footnote">1</a></sup>.</p>|||361|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="#fn:first" class="footnote">1</a>||footnote|361|40|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Footnote 2 link<sup id="fnref:second"><a href="#fn:second" class="footnote">2</a></sup>.</p>|||363|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="#fn:second" class="footnote">2</a>||footnote|363|41|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Inline footnote^[Text of inline footnote] definition.</p>|||365|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Duplicated footnote reference<sup id="fnref:second:1"><a href="#fn:second" class="footnote">2</a></sup>.</p>|||367|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="#fn:second" class="footnote">2</a>||footnote|363|41|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-deflist">Definition lists</a>|||369|26|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<dt>Term 1</dt>|||372|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Definition 1
+with lazy continuation.</p>|||374|4|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<dt>Term 2 with <em>inline markup</em></dt>|||377|2|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<em>inline markup</em>|||377|18|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Definition 2</p>|||379|4|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">{</span>||p|252|262|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="err">some</span>||err|381|112|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="err">code,</span>||err|381|165|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="err">part</span>||err|381|219|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="err">of</span>||err|381|272|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="err">Definition</span>||err|381|323|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="err">2</span>||err|381|382|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span class="p">}</span>||p|381|432|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Third paragraph of definition 2.</p>|||385|4|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H42|<p><em>Compact style:</em></p>|||389|0|Heading markup should be used if this content is intended as a heading.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<em>Compact style:</em>|||389|3|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Term 1
+  ~ Definition 1</p>|||391|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Term 2
+  ~ Definition 2a
+  ~ Definition 2b</p>|||394|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-abbr">Abbreviations</a>|||398|23|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>This is <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.</p>|||400|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<abbr title="Hyper Text Markup Language">HTML</abbr>|||400|11|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>It converts “<abbr title="Hyper Text Markup Language">HTML</abbr>”, but keep intact partial entries like “xxxHTMLyyy” and so on.</p>|||402|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<abbr title="Hyper Text Markup Language">HTML</abbr>|||400|11|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="https://github.com/markdown-it/markdown-it-container">Custom containers</a>|||404|27|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>::: warning
+<em>here be dragons</em>
+:::</p>|||406|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<em>here be dragons</em>|||407|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Footnote <strong>can have markup</strong></p>|||412|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<strong>can have markup</strong>|||412|18|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>and multiple paragraphs.&nbsp;<a href="#fnref:first" class="reversefootnote">↩</a></p>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="#fnref:first" class="reversefootnote">↩</a>||reversefootnote|1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<p>Footnote text.&nbsp;<a href="#fnref:second" class="reversefootnote">↩</a>&nbsp;<a href="#fnref:second:1" class="reversefootnote">↩<sup>2</sup></a></p>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="#fnref:second" class="reversefootnote">↩</a>||reversefootnote|1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="#fnref:second:1" class="reversefootnote">↩<sup>2</sup></a>||reversefootnote|1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<sup>2</sup>|||417|151|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h3>Brought to you by</h3>|||439|8|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder|<a href="" title="Link to the  website">
+                <img src="" alt=" logo">
+            </a>|||1|0|Anchor element found with link content, but no href, ID or name attribute has been supplied.
+WARNING|WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder|<a href="" title="Link to the  website">
+                <img src="" alt=" logo">
+            </a>|||1|0|Anchor element found with link content, but no href, ID or name attribute has been supplied.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<h3>Quick links one</h3>|||457|20|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="/contact.html">Contact</a>|||464|28|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a href="/sitemap">Sitemap</a>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+ERROR|WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId|<a>
+                </a>|||1|0|Anchor element found with no link content and no name and/or ID attribute.
+ERROR|WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId|<a>
+                
+            </a>|||1|0|Anchor element found with no link content and no name and/or ID attribute.
+ERROR|WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId|<a>
+            
+            </a>|||1|0|Anchor element found with no link content and no name and/or ID attribute.
+WARNING|WCAG2AAA.Principle1.Guideline1_3.1_3_1.H48|<div class="col-sm-3 footer-copyright"><a>
+              </a><a href="https://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm" rel="external">
+                  <span>© Crown copyright</span>
+              </a>
+            </div>||col-sm-3 footer-copyright|1|0|If this element contains a navigation section, it is recommended that it be marked up as a list.
+ERROR|WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId|<a>
+              </a>|||1|0|Anchor element found with no link content and no name and/or ID attribute.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<span>© Crown copyright</span>|||1|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<div class="col-xs-10">
+        Welcome to . This site uses cookies. To find out more read our <a title="Cookie policy" href="/cookie-policy">privacy policy</a>.
+      </div>||col-xs-10|498|6|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<a title="Cookie policy" href="/cookie-policy">privacy policy</a>|||499|71|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.
+WARNING|WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage|<title>icon-glyphicon-remove-circle</title>|||503|0|This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.

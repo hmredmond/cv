@@ -20,7 +20,7 @@ var htmlhint_inline = require('gulp-htmlhint-inline');
 
 gulp.task('validation', $.sequence(['lint:html','lint:bootstrap', 'jshint:scripts']));
 
-gulp.task('lint:bootstrap', function() {
+gulp.task('lint:bootstrap', () =>  {
   console.log('Validating BOOTSTRAP');
   return gulp.src(config.deployDir + '/**/*.html')
     .pipe($.bootlint({
@@ -32,14 +32,14 @@ gulp.task('lint:bootstrap', function() {
 });
 
 //html:partials - validates the partial html files. 
-gulp.task('lint:html', function() {
+gulp.task('lint:html', () => {
   console.log('Validating HTML');
   var options = {
     htmlhintrc: '.htmlhintrc',
     ignores: {}
   };
 
-  return gulp.src(config.deployDir + '/**/*.html')
+  return gulp.src('../' + config.sourceDir + '_site/*.html')
     .pipe(htmlhint_inline({
       'doctype-first': false,
       'htmlhint': false
@@ -51,7 +51,7 @@ gulp.task('lint:html', function() {
 });
 
 //scripts - validates the javascript scripts
-gulp.task('jshint:scripts', function() {
+gulp.task('jshint:scripts', () =>  {
     console.log('Validating SCRIPTS');
   return gulp.src(['!'+ config.sourceDir + 'assets/js/vendor/*', './assets/js/_src/*.js'])
     .pipe($.jshint('.jshintrc'))
@@ -67,7 +67,7 @@ var htmlReporter = function(file) {
   }
 }
 
-var exitOnJshintError = map(function (file, cb) {
+var exitOnJshintError = map((file, cb) =>  {
   if (!file.jshint.success) {
     console.error('jshint failed');
     process.exit(1);
