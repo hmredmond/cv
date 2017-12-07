@@ -1,4 +1,4 @@
-# Workflow Subtree
+# Workflow Subtree Project
 
 This is a shared workflow for Jekyll Sites. 
 
