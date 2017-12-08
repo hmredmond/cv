@@ -19,6 +19,9 @@ var babel = require("gulp-babel");
 var jsFiles = 'assets/js/*utilities.js',
   jsDest = config.sourceDir + "assets/js";
 
+gulp.task("js", ['babel:transpile'],  () => {
+  gulp.start('uglify');
+});
 
 gulp.task("babel:transpile", () => {
   return gulp.src(config.sourceDir + "assets/js/_src/*.js")

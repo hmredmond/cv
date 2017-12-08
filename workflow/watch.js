@@ -10,7 +10,8 @@
 
 var gulp = require('gulp');
 
-gulp.task('watch', function() {
+gulp.task('watch:assets', function() {
 	gulp.watch(config.sourceDir + "assets/js/_src/*.js", ['babel:transpile', 'uglify']);
-	gulp.watch(config.sourceDir + config.sassDir + '/**/*.scss', ['sass', 'minify-css']);
+	gulp.watch(config.sourceDir + config.sassDir + '/**/*.scss', ['sass']);
+	gulp.watch(config.sourceDir + config.cssDir + '/**/*.min.css', ['deploy:css']);
 });

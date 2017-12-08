@@ -13,7 +13,7 @@ var $ = require('gulp-load-plugins')({
   pattern: ['gulp-*', 'uglify-save-license', 'del']
 });
 
-gulp.task('clean:all', $.sequence('clean:deploy', 'clean:complete'));
+gulp.task('clean:all', $.sequence('clean:deploy', 'clean:workflow', 'clean:complete'));
 
 gulp.task('clean:deploy', function(done) {
   $.del([config.deployDir], done);
@@ -25,4 +25,9 @@ gulp.task('clean:complete', function(done) {
 
 gulp.task('clean:node', function(done) {
   $.del(['node_modules'], done);
+});
+
+
+gulp.task('clean:workflow', function() {
+  $.del(['accessibility_reports']);
 });

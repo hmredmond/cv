@@ -22,6 +22,7 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-a11y": "^0.1.2",
     "gulp-accessibility": "^3.0.1",

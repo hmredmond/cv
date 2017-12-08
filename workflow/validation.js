@@ -17,17 +17,20 @@ var $ = require('gulp-load-plugins')({
 });
 
 var htmlhint_inline = require('gulp-htmlhint-inline');
+var testingJsDir  = config.sourceDir;
+var testingHtmlDir  = '../' + config.deployDir;
 
 gulp.task('validation', $.sequence(['lint:html','lint:bootstrap', 'jshint:scripts']));
 
 gulp.task('lint:bootstrap', () =>  {
   console.log('Validating BOOTSTRAP');
-  return gulp.src(config.deployDir + '/**/*.html')
+  return gulp.src(testingHtmlDir + '**/*.html')
+    .pipe($.using())
     .pipe($.bootlint({
       stoponerror: false,
       stoponwarning: false,
       loglevel: 'info',
-      disabledIds: ['W009', 'E007']
+      disabledIds: []
     }));
 });
 
@@ -39,7 +42,7 @@ gulp.task('lint:html', () => {
     ignores: {}
   };
 
-  return gulp.src('../' + config.sourceDir + '_site/*.html')
+  return gulp.src(testingHtmlDir + '**/*.html')
     .pipe(htmlhint_inline({
       'doctype-first': false,
       'htmlhint': false
@@ -52,8 +55,8 @@ gulp.task('lint:html', () => {
 
 //scripts - validates the javascript scripts
 gulp.task('jshint:scripts', () =>  {
-    console.log('Validating SCRIPTS');
-  return gulp.src(['!'+ config.sourceDir + 'assets/js/vendor/*', './assets/js/_src/*.js'])
+    console.log('Validating SCRIPTS in'  + testingJsDir + 'assets/js/_src/');
+  return gulp.src(['!'+ testingJsDir + 'assets/js/*.js', testingJsDir + 'assets/js/_src/*.js'])
     .pipe($.jshint('.jshintrc'))
     .pipe($.using())
     .pipe($.jshint.reporter('jshint-stylish'))
