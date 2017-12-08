@@ -24,6 +24,7 @@ gulp.task("js", ['babel:transpile'],  () => {
 });
 
 gulp.task("babel:transpile", () => {
+  console.log('TRANSPILING: Babel');
   return gulp.src(config.sourceDir + "assets/js/_src/*.js")
     .pipe(babel())
     .pipe($.using())
@@ -31,6 +32,7 @@ gulp.task("babel:transpile", () => {
 });
 
 gulp.task('uglify', () => {
+    console.log('Uglifing: Javascript');
     return gulp.src(jsFiles)
         .pipe($.uglify())
         .pipe(gulp.dest(jsDest));
