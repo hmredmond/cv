@@ -1,0 +1,19 @@
+{% if site.data.achievements %}
+<section class="section projects-section">
+
+  <h2 class="section-title"><i class="fa fa-trophy"></i>Achievements</h2>
+
+  {% for achievement in site.data.achievements %}
+    <div class="item">
+
+      <label class="achievement-title">{{ achievement.title }} ({{ achievement.date}}) </label>
+
+      {% if achievement.description %}
+      - <span class="achievement-description">{{ achievement.description }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

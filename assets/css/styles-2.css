@@ -17,11 +17,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media (max-width: 767px) {
-    body{ 
-        padding: 0;
-    }
-}
 h1,
 h2,
 h3,
@@ -60,7 +55,7 @@ p {
   background: #4CAC9D;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 250px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -249,6 +244,10 @@ p {
   height: 12px;
   background: #7ec6bb;
 }
+.skillset .level-bar-inner.strong-skill {
+  height: 12px;
+  background: #5bb7a8;
+}
 .footer {
   padding: 30px;
   padding-top: 60px;
@@ -296,6 +295,7 @@ p {
     top: 1px;
   }
 }
+
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
 
@@ -309,4 +309,3 @@ used for profile image
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-
