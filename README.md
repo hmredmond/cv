@@ -1,28 +1,26 @@
-This theme is designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
+### Online Jekyll Based CV code
+
+This theme was originally written by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). 
+Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
+
+I have extended and developer the code written by [https://github.com/sharu725](https://github.com/sharu725/online-cv)
+
+Updates and Improvements Made:
+
+* Converted custom LESS code to SASS
+* Added custom Gulp workflow to check for:
+    * Accessibility
+    * HMTL linting
+    * JS and CSS minification
+    * SCSS compilation
+* Added concept of Achievements
+* Added ability to download hard copy of CV
+* Added clear outline to current role details
+* Added concept of 'other skills' - i.e. skills with a score of less than 50%
 
 
-I have made this into a Jekyll Theme.
-**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/)
-
-The default theme would look like this
-
-![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme.png)
-
-The theme is responsive
-
-![online cv responsive Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-responsive-jekyll-theme.png)
-
-There are 6 color schemes available
-
-![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme-2.png)
-
-## Installation
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready at https://username.github.io/online-cv/
-
-[Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com)
+More enhancements to come including:
+* using the themes to demonstrate different layouts
+* secondary pages with project examples
+* secondary pages with comments / reviews
+* non work achievements
