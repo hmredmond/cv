@@ -227,6 +227,13 @@ used for profile image
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
 
+.sidebar-wrapper {
+  left: 0; }
+
+.main-wrapper {
+  padding-left: 300px;
+  padding-right: 60px; }
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
