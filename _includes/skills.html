@@ -1,0 +1,39 @@
+{% assign firstskill = true %}
+{% if site.data.skills %}
+<section class="skills-section section">
+
+  <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+
+  <div class="skillset">
+
+    {% for skill in site.data.skills %}
+
+    {% if skill.level > 50 %}
+    <div class="item">
+
+      <h3 class="level-title">{{ skill.name }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner {% if skill.level > 75 %} strong-skill  {% endif %}" data-level="{{ skill.level }}%">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    {% endif %}
+    
+    
+    
+    {% if skill.level < 50 %}
+      {% if firstskill %}
+      <h4>Other Skills</h4>
+      {% assign firstskill = false %}
+      {% endif %}
+      <span class="badge badge-default">{{skill.name}}</span>
+    {% endif %}
+
+    {% endfor %}
+
+  </div>
+ 
+</section><!--//skills-section-->
+{% endif %}

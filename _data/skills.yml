@@ -1,0 +1,27 @@
+- skill:
+  name: HTML5 & CSS
+  level: 98
+- skill:
+  name: Javascript & jQuery
+  level: 98
+- skill:
+  name: AngularJS
+  level: 90
+- skill:
+  name: Angular2+
+  level: 90
+- skill:
+  name: ReactJS
+  level: 65
+- skill:
+  name: CSS Compilers (SASS)
+  level: 95
+- skill:
+  name: Gulp
+  level: 85
+- skill:
+  name: Sketch & Photoshop
+  level: 49
+- skill:
+  name: Webpack
+  level: 49
