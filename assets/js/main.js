@@ -16,6 +16,9 @@ jQuery(document).ready(function($) {
 
     });
    
-    
+    $("#change-theme").on('change', function(){
+       var newTheme = $("#change-theme").val();
+       $('link#theme-style').attr('href','assets/css/'+newTheme +'/styles.css');
+    });
 
 });
