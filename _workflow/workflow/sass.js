@@ -25,7 +25,7 @@ gulp.task('sass', ['sass:compile'], function() {
 });
 
 gulp.task('sass:compile', (cb) => {
-  return gulp.src([config.sourceDir + config.sassDir + '*.scss'])
+  return gulp.src([config.sourceDir + config.sassDir +  '/**/*.scss'])
   .pipe(sassGlob()) 
   .pipe($.using())   
     .pipe($.sass({

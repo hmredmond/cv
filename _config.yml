@@ -4,11 +4,11 @@ url: 'http://hmredmond.github.io'
 baseurl: '/cv' #change it according to your repository name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-#style: styles-6
+style: theme-2
+#style: theme-3
+#style: theme-4
+#style: theme-5
+#style: theme-6
 
 #Profile information
 name: Hannah Redmond
@@ -23,6 +23,7 @@ website: hannahredmond.co.uk #do not add http://
 linkedin: hannah-redmond-4511251
 github: hmredmond
 twitter: '@hmredmond'
+cv: hannah_redmond_cv.docx
 #Update all the sections by editing the files inside _data folder.
 
 # Tracker
