@@ -1,4 +1,7 @@
 {% if site.data.projects %}
+{% for intro in site.data.projects %}
+{% if intro.show %}
+
 <section class="section projects-section">
 
   <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
@@ -22,4 +25,9 @@
   {% endfor %}
 
 </section><!--//section-->
+
+
+{% endif %}
+{% endfor %}
+
 {% endif %}
