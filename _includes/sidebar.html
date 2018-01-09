@@ -3,7 +3,7 @@
 
    <div class="profile-container">
 
-       <img class="profile-img" src="{{site.baseurl}}/assets/images/{{ site.pic }}" alt="profile picture" />
+       <img class="profile-img" src="{{site.baseurl}}/assets/images/{{ site.pic }}" alt="{{site.profle-name}} profile picture" />
 
        {% if site.name %}
        <h1 class="name">{{site.name}}</h1>
@@ -14,6 +14,16 @@
        {% endif %}
 
    </div><!--//profile-container-->
+
+   <div class="container-block download-container">
+    {% if site.cv %}
+    <ul class="list-unstyled contact-list">
+        <li>
+            <a href="{{site.baseurl}}/assets/files/{{ site.cv }}" target="_blank" class="btn btn-info" role="button"><i class="fa fa-file"></i> Download copy of CV</a>
+        </li>
+    </ul>       
+    {% endif %}
+    </div>
 
    <div class="contact-container container-block">
        <ul class="list-unstyled contact-list">
@@ -40,13 +50,14 @@
 
            {% if site.twitter %}
            <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
-           {% endif %}
+           {% endif %}      
 
        </ul>
    </div><!--//contact-container-->
-
+    
   {% include education.html %}
   {% include language.html %}
   {% include interests.html %}
   {% include other-interests.html %}
+  
 </div><!--//sidebar-wrapper-->

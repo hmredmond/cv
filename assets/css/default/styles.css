@@ -53,11 +53,21 @@ p {
   color: #fff; }
   .sidebar-wrapper a {
     color: #fff; }
+  .sidebar-wrapper .container-block {
+    padding: 30px; }
+  .sidebar-wrapper .container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px; }
   .sidebar-wrapper .profile-container {
     padding: 30px;
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff; }
+  .sidebar-wrapper .download-container {
+    padding-bottom: 0px; }
   .sidebar-wrapper .name {
     font-size: 32px;
     font-weight: 900;
@@ -81,14 +91,6 @@ p {
       margin-bottom: 0; }
   .sidebar-wrapper .contact-list .email .fa {
     font-size: 14px; }
-  .sidebar-wrapper .container-block {
-    padding: 30px; }
-  .sidebar-wrapper .container-block-title {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 15px; }
   .sidebar-wrapper .degree {
     font-size: 14px;
     margin-top: 0;
