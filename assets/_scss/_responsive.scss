@@ -1,9 +1,11 @@
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) { 
     
     .sidebar-wrapper {
         position: static;
         width: inherit;
+        min-height:200px;
     }
     
     .main-wrapper {
@@ -20,8 +22,29 @@
         margin-bottom: 0;
     }
 
+    .details{
+        ul{
+            padding-left:15px;
+        }
+    }
 
+    .download-container{
+        text-align: center;
+    }
+
+    .mobile-breaker{
+        border-bottom:1px solid white;
+    }
 }
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) { 
+  body{
+      padding:0;
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
      

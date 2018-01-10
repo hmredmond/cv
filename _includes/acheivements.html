@@ -4,15 +4,15 @@
   <h2 class="section-title"><i class="fa fa-trophy"></i>Achievements</h2>
 
   {% for achievement in site.data.achievements %}
-    <div class="item">
+    <dl class="item">
 
-      <label class="achievement-title">{{ achievement.title }} ({{ achievement.date}}) </label>
+      <dt class="achievement-title">{{ achievement.title }} ({{ achievement.date}}) </dt>
 
       {% if achievement.description %}
-      - <span class="achievement-description">{{ achievement.description }}</span>
+      <dd class="achievement-description">{{ achievement.description }}</dd>
       {% endif %}
 
-    </div><!--//item-->
+    </dl><!--//item-->
   {% endfor %}
 
 </section><!--//section-->

@@ -4,10 +4,10 @@
   <h2 class="container-block-title">Other Information</h2>
 
   {% for other in site.data.otherinformation %}
-    <div class="item">
-      <label>{{ other.label}}</label>
-      <span>{{other.description}}</span>
-   </div><!--//item-->
+    <dl class="item">
+      <dt>{{ other.label}}</dt>
+      <dd>{{other.description}}</dd>
+   </dl><!--//item-->
   {% endfor %}
 
 </div><!--//other-container-->
