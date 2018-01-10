@@ -292,6 +292,8 @@ used for profile image
     margin-top: 5px; }
   .main-wrapper .upper-row {
     margin-bottom: 0; }
+  .main-wrapper .experiences-section .item .upper-row {
+    display: inherit; }
   .details ul {
     padding-left: 15px; }
   .download-container {
