@@ -100,6 +100,10 @@ p {
     margin-bottom: 5px; }
   .sidebar-wrapper .education-container .item {
     margin-bottom: 15px; }
+    .sidebar-wrapper .education-container .item .time:before {
+      content: '('; }
+    .sidebar-wrapper .education-container .item .time:after {
+      content: ')'; }
     .sidebar-wrapper .education-container .item:last-child {
       margin-bottom: 0; }
   .sidebar-wrapper .education-container .meta {
@@ -155,7 +159,19 @@ p {
   .main-wrapper .section {
     margin-bottom: 60px; }
   .main-wrapper .experiences-section .item {
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
+    .main-wrapper .experiences-section .item .upper-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: baseline;
+          -ms-flex-align: baseline;
+              align-items: baseline;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+      .main-wrapper .experiences-section .item .upper-row * {
+        padding-right: 5px; }
   .main-wrapper .experiences-section .present-role {
     border: 1px solid white;
     padding: 15px; }
@@ -258,7 +274,20 @@ used for profile image
   .download-container {
     text-align: center; }
   .mobile-breaker {
-    border-bottom: 1px solid white; } }
+    border-bottom: 1px solid white; }
+  .education-container .item {
+    margin-bottom: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+    .education-container .item * {
+      padding-right: 5px; } }
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {

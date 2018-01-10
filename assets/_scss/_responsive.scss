@@ -35,6 +35,18 @@
     .mobile-breaker{
         border-bottom:1px solid white;
     }
+
+    .education-container {
+        .item {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: baseline;
+            justify-content: flex-start;
+            *{
+                padding-right:5px;
+            }
+        }
+    }
 }
 
 

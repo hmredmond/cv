@@ -118,6 +118,13 @@ p {
     .education-container {
         .item {
             margin-bottom: 15px;
+           
+            .time:before{
+                content: '(';
+            }
+            .time:after{
+                content: ')';
+            }
             &:last-child {
                 margin-bottom: 0;
             }
@@ -195,7 +202,15 @@ p {
     
     .experiences-section {
         .item {
-            margin-bottom: 30px;
+            margin-bottom: 15px;
+            .upper-row{
+                display: flex;
+                align-items: baseline;
+                justify-content: flex-start;
+                *{
+                    padding-right:5px;
+                }
+            }
         }
 
         .present-role{
