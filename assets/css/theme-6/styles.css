@@ -292,7 +292,9 @@ used for profile image
             align-items: baseline;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            justify-content: flex-start; }
+            justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     .education-container .item * {
       padding-right: 5px; } }
 
