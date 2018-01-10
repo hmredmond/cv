@@ -11,7 +11,9 @@ jQuery(document).ready(function($) {
             $(this).animate({
                 width: itemWidth
             }, 800);
-            
+
+
+            $(this).find('.level-description').stop(true, true).delay(800).animate({opacity:1}, 300);
         });
 
     });

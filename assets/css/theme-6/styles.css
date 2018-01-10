@@ -204,6 +204,8 @@ p {
     margin-bottom: 30px; }
   .main-wrapper .projects-section .item {
     margin-bottom: 15px; }
+  .main-wrapper .badge {
+    margin-bottom: 5px; }
 
 dl {
   margin-bottom: 10px; }
@@ -231,9 +233,24 @@ dl {
 
 .skillset .level-bar-inner {
   height: 12px;
-  background: #8ca9b7; }
-  .skillset .level-bar-inner.strong-skill {
-    background: #4f707e; }
+  background: #4f707e; }
+  .skillset .level-bar-inner .level-description {
+    color: #ccc;
+    float: right;
+    line-height: 1.1rem;
+    font-size: 1.1rem;
+    padding-right: 8px;
+    opacity: 0; }
+
+.skillset .other-skills {
+  margin-top: 30px; }
+  .skillset .other-skills .length {
+    padding-left: 5px;
+    opacity: 0.7; }
+    .skillset .other-skills .length:before {
+      content: "("; }
+    .skillset .other-skills .length:after {
+      content: ")"; }
 
 .footer {
   padding: 30px;
@@ -296,7 +313,22 @@ used for profile image
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
     .education-container .item * {
-      padding-right: 5px; } }
+      padding-right: 5px; }
+  .level-bar {
+    height: 30px;
+    min-height: 30px;
+    color: white; }
+    .level-bar .level-bar-inner {
+      min-height: 30px;
+      height: 30px; }
+      .level-bar .level-bar-inner .level-title {
+        padding-top: 5px;
+        padding-left: 10px;
+        float: left;
+        margin-bottom: 0; }
+      .level-bar .level-bar-inner .length {
+        font-size: 1.4rem;
+        line-height: 2.8rem; } }
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {

@@ -48,6 +48,28 @@
             }
         }
     }
+
+    .level-bar{
+        height:30px;
+        min-height:30px;
+        color:white;
+        
+        .level-bar-inner{
+            min-height:30px;
+            height:30px;
+            .level-title{
+                padding-top: 5px;
+                padding-left: 10px;
+                float: left;
+                margin-bottom:0;
+            }
+            .length{
+                font-size:1.4rem;
+                line-height:2.8rem;
+
+            }
+        }
+    }
 }
 
 
