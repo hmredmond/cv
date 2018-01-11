@@ -74,3 +74,15 @@
   name: Progressive enhancement
   level: 49
   experience-level: 10yrs
+- skill:
+  name: SQL
+  level: 49
+  experience-level: 15yrs
+- skill:
+  name: docker
+  level: 49
+  experience-level: 1yr
+- skill:
+  name: Rest API integration
+  level: 49
+  experience-level: 5yrs
