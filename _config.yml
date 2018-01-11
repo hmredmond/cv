@@ -5,11 +5,11 @@ baseurl: '/cv' #change it according to your repository name
 profile-name: Hannah Redmond #Your name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: theme-2
+#style: aqua
 #style: theme-3
 #style: theme-4
-#style: theme-5
-style: theme-6
+style: white
+#style: grey
 
 #Profile information
 name: Hannah Redmond
