@@ -321,6 +321,14 @@ used for profile image
       -ms-flex: 1;
           flex: 1; }
 
+@media (max-width: 767px) {
+  .wrapper {
+    display: inline-block;
+    position: relative; }
+  .sidebar-wrapper {
+    position: absolute;
+    max-width: 100%; } }
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
