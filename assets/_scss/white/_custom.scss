@@ -1,5 +1,4 @@
 .sidebar-wrapper{
-    left:0;
     color:$sidebar-text;
     border-right: 1px solid $lighter-grey;
     a{
@@ -34,9 +33,7 @@
 }
 
 .main-wrapper{
-    padding-left:300px;
     padding-right:60px;
-
     .section-title {
         color: lighten($text-color, 15%);
  

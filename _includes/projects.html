@@ -1,10 +1,11 @@
 {% if site.data.projects %}
 {% for intro in site.data.projects %}
-{% if intro.show %}
+
+{% if intro.show == true %}
 
 <section class="section projects-section">
 
-  <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+  <h2 class="section-title"><i class="fa fa-archive"></i>Project Portfolio</h2>
 
   {% for intro in site.data.projects %}
   <div class="intro">
@@ -15,11 +16,26 @@
   {% for project in site.data.projects %}
     <div class="item">
 
-      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
-
+      <span class="project-title">{% if project.link == '#' %} {{ project.title }} {% else %} <a href="{{ project.link }}">{{ project.title }}</a> {% endif %} </span>
+      {% if project.duration %} ({{project.duration}}){% endif %}
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      - <span class="project-tagline">{{ project.tagline }} </span>
       {% endif %}
+
+      <div class='screenshots'>
+      {% for screenshot in project.screenshots %}
+          <figure class="screenshot-item">
+            <img src='{{site.baseurl}}/assets/images/screenshots/{{screenshot.img}}'/>
+            <figcaption>{{screenshot.desc}}</figcaption>
+          </figure>   
+      {% endfor %}
+      </div>
+
+      <div class='skills'>
+          {% for technology in project.technologies %}
+          <span class="badge badge-default">{{technology}}</span>
+          {% endfor %}
+          </div>
 
     </div><!--//item-->
   {% endfor %}

@@ -1,8 +1,13 @@
+.wrapper{
+    display:flex;
+    position:initial;
+}
 .sidebar-wrapper{
-    left:0;
+    flex:1;
+    position:initial;
 }
 
 .main-wrapper{
-    padding-left:300px;
     padding-right:60px;
+    flex:1;
 }

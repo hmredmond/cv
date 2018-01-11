@@ -1,4 +1,55 @@
 - intro:
   description: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
   sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-  show: false
+  show: true
+
+- project:
+  title: NCSC
+  duration: 8 months
+  link: 'http://www.ncsc.gov.org'
+  screenshots:
+  - img:
+    desc: screenshot of the style guide here. 
+  tagline: "Provided living style guide for developers to build the actual site from."
+  technologies:
+  - HTML / CSS
+  - Javascript
+  - SASS
+  - AWS
+- project:
+  title: Chat
+  duration: 3 months
+  link: '#'
+  screenshots:
+  - img: chat_home_fullscreen.jpeg
+    desc: first image of project
+  - img: chat_home_fullscreen.jpeg
+    desc: first image of project
+  - img: chat_home_fullscreen.jpeg
+    desc: first image of project
+  - img: image.jpg
+    desc: second image of project
+  tagline: "A chat application for secure conversations. Bespoke functionality."
+  technologies: 
+  - AngularJs
+  - HTML / CSS3
+  - Socket.IO
+  - XMPPP
+- project:
+  title: Cyber Essentials
+  duration: 3 months
+  technologies: 
+  - Jekyll
+  - Docker
+  - AWS
+  - HTML / CSS
+  - PHP
+- project:
+  title: Cyber First (2018 Competition)
+  duration: 3 months
+  technologies: 
+  - Jekyll
+  - Docker
+  - AWS
+  - HTML / CSS
+  - PHP

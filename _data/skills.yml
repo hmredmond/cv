@@ -87,6 +87,14 @@
   level: 49
   experience-level: 1yr
 - skill:
+  name: svg
+  level: 49
+  experience-level: 6yr
+- skill:
   name: Rest API integration
   level: 49
   experience-level: 5yrs
+- skill:
+  name: d3 / HighCharts
+  level: 49
+  experience-level: 3yrs

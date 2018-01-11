@@ -41,7 +41,7 @@ p {
     background: $theme-color;
     position: absolute;
     right: 0;
-    width: 250px;
+    max-width: 250px;
     height: 100%;
     min-height: 800px;
     color: #fff;
@@ -274,7 +274,21 @@ dl{
         }
     }
 }
+.projects-section{
 
+    .screenshots{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .screenshot-item{
+        max-width: 50%;
+        padding: 15px;
+        img{
+            width:100%;
+        }
+        
+    }
+}
 .skillset {
     .item {
         margin-bottom: 15px;
