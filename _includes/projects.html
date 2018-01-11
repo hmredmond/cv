@@ -16,7 +16,7 @@
   {% for project in site.data.projects %}
     <div class="item">
 
-      <span class="project-title">{% if project.link == '#' %} {{ project.title }} {% else %} <a href="{{ project.link }}">{{ project.title }}</a> {% endif %} </span>
+      <span class="project-title">{% if project.link == '#' %} {{ project.title }} {% else %} <a href="{{ project.link }}" target="_blank" title="{{ project.title }} website link">{{ project.title }}</a> {% endif %} </span>
       {% if project.duration %} ({{project.duration}}){% endif %}
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }} </span>

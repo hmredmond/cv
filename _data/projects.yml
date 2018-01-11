@@ -6,9 +6,13 @@
 - project:
   title: NCSC
   duration: 8 months
-  link: 'http://www.ncsc.gov.org'
+  link: 'http://www.ncsc.gov.uk'
   screenshots:
-  - img:
+  - img: Screenshot-2018-1-11 Home Page.jpg
+    desc: Site in situ 
+  - img: Screenshot-2018-1-11 Home Page(1).jpg
+    desc: Site in situ (mobile)
+  - img: Screenshot-2018-1-11 UI Toolkit NCSC.png
     desc: screenshot of the style guide here. 
   tagline: "Provided living style guide for developers to build the actual site from."
   technologies:
@@ -23,33 +27,62 @@
   screenshots:
   - img: chat_home_fullscreen.jpeg
     desc: first image of project
-  - img: chat_home_fullscreen.jpeg
-    desc: first image of project
-  - img: chat_home_fullscreen.jpeg
-    desc: first image of project
-  - img: image.jpg
-    desc: second image of project
   tagline: "A chat application for secure conversations. Bespoke functionality."
   technologies: 
   - AngularJs
   - HTML / CSS3
   - Socket.IO
   - XMPPP
+  - strophe
+  - openfire
 - project:
   title: Cyber Essentials
   duration: 3 months
+  link: http://www.cyberessentials.ncsc.gov.uk
   technologies: 
   - Jekyll
   - Docker
   - AWS
   - HTML / CSS
   - PHP
+  - Siteleaf
 - project:
   title: Cyber First (2018 Competition)
   duration: 3 months
+  link: http://www.cyberfirst.ncsc.gov.uk
   technologies: 
   - Jekyll
   - Docker
   - AWS
   - HTML / CSS
   - PHP
+  - Siteleaf  
+- project:
+  title: IntelReveal
+  duration: 3 weeks
+  technologies: 
+  - HTML / CSS
+  - AngularJs
+  - HighCharts
+- project:
+  title: CommsReveal
+  duration: 3 months
+  technologies: 
+  - HTML / CSS
+  - AngularJs
+  - HighCharts
+- project:
+  title: CommsReveal
+  duration: 3 weeks
+  technologies: 
+  - HTML / CSS
+  - AngularJs
+  - HighCharts
+- project:
+  title: Symantec.Cloud
+  duration: 4 Years
+  technologies: 
+  - HTML / CSS
+  - HighCharts
+  - C#.net
+  - SEO
