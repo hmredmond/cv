@@ -188,6 +188,11 @@ p {
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
+        a{
+            font-size: 1.6rem;
+            text-transform: none;
+            float: right;
+        }
         .fa {
             width: 30px;
             height: 30px;
