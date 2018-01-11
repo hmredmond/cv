@@ -8,11 +8,13 @@
   duration: 8 months
   link: 'http://www.ncsc.gov.uk'
   screenshots:
-  - img: Screenshot-2018-1-11 Home Page.jpg
+  - img: ncsc_home_page.jpg
     desc: Site in situ 
-  - img: Screenshot-2018-1-11 Home Page(1).jpg
+  - img: ncsc_home_page_mobile.jpg
     desc: Site in situ (mobile)
-  - img: Screenshot-2018-1-11 UI Toolkit NCSC.png
+  - img: ncsc_ui_toolkit_1.jpg
+    desc: screenshot of the style guide here. 
+  - img: UI_Toolkit_NCSC_2.jpg
     desc: screenshot of the style guide here. 
   tagline: "Provided living style guide for developers to build the actual site from."
   technologies:
@@ -64,13 +66,15 @@
   - HTML / CSS
   - AngularJs
   - HighCharts
-- project:
-  title: CommsReveal
-  duration: 3 months
-  technologies: 
-  - HTML / CSS
-  - AngularJs
-  - HighCharts
+  screenshots:
+    - img: intelreveal_1.jpg
+      desc: IntelReveal 1
+    - img: intelreveal_2.jpg
+      desc: IntelReveal 2
+    - img: intelreveal_3.jpg
+      desc: IntelReveal 3
+    - img: intelreveal_4.jpg
+      desc: IntelReveal 4
 - project:
   title: CommsReveal
   duration: 3 weeks
