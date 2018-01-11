@@ -55,6 +55,9 @@ p {
     color: #fff; }
   .sidebar-wrapper ul {
     margin-bottom: 0; }
+  .sidebar-wrapper .profile-container a:hover {
+    text-decoration: none;
+    opacity: 0.8; }
   .sidebar-wrapper .container-block {
     margin: 0 30px;
     padding: 30px 0; }
@@ -214,6 +217,12 @@ dl {
     dl dt.achievement-title:after {
       content: '-';
       padding-right: 5px; }
+
+.navigation-section {
+  position: relative;
+  top: -20px;
+  width: 100%;
+  text-align: right; }
 
 .projects-section .screenshots {
   display: -webkit-box;

@@ -45,11 +45,19 @@ p {
     height: 100%;
     min-height: 800px;
     color: #fff;
+
     a {
         color: #fff;
     }
     ul{
         margin-bottom:0;
+    }
+    .profile-container{
+
+        a:hover{
+            text-decoration: none;
+            opacity:0.8;    
+        }
     }
 
     .container-block {
@@ -274,6 +282,14 @@ dl{
         }
     }
 }
+
+.navigation-section{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    text-align: right;
+}
+
 .projects-section{
 
     .screenshots{
