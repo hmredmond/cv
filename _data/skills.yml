@@ -83,6 +83,10 @@
   level: 49
   experience-level: 1yr
 - skill:
+  name: vue
+  level: 49
+  experience-level: 1yr
+- skill:
   name: Rest API integration
   level: 49
   experience-level: 5yrs
