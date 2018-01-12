@@ -1,7 +1,7 @@
 # Site Settings
 title: Curriculum Vitae - Hannah Redmond - Lead Front End Developer
 url: 'http://hmredmond.github.io'
-baseurl: '/cv' #change it according to your repository name
+baseurl: '/' #change it according to your repository name
 profile-name: Hannah Redmond #Your name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
