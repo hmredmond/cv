@@ -1,23 +1,38 @@
----
-title: Test
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-permalink: pretty
+# Site Settings
+title: Curriculum Vitae - Hannah Redmond - Lead Front End Developer
+url: 'http://hmredmond.github.io'
+baseurl: '/cv' #change it according to your repository name
+profile-name: Hannah Redmond #Your name
+
+# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
+style: aqua
+#style: theme-3
+#style: theme-4
+#style: white
+#style: grey
+
+#Profile information
+name: Hannah Redmond
+tagline: Lead Front End Developer
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: 'Highly motivated and enthusiastic lead front end developer with 15 years’ commercial experience working in the fast paced world of software and web development. Principal skills offered include excellent front end development and full stack knowledge combined with technical proficiency and proven abilities in communication, teamwork and time management. '
+
+#sidebar links
+email: hmredmond@hotmail.com
+phone: 07976713110
+website: #hannahredmond.co.uk #do not add http://
+linkedin: hannah-redmond-4511251
+github: hmredmond
+twitter: '@hmredmond'
+cv: hannah_redmond_fed_cv.doc
+#Update all the sections by editing the files inside _data folder.
+
+# Tracker
+analytics: #UA-83979019-1
+
+# Build settings
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
