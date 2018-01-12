@@ -1,0 +1,24 @@
+.wrapper{
+    display:flex;
+    position:initial;
+}
+.sidebar-wrapper{
+    flex:1;
+    position:initial;
+}
+
+.main-wrapper{
+    padding-right:60px;
+    flex:1;
+}
+
+@media (max-width: 767px) { 
+    .wrapper{
+        display:inline-block;
+        position: relative;
+    }
+    .sidebar-wrapper{
+        position: absolute;;
+        max-width: 100%;
+    }
+}

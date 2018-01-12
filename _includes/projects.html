@@ -1,0 +1,58 @@
+{% if site.data.projects %}
+
+<section class="section projects-section">
+
+  <h2 class="section-title"><i class="fa fa-archive"></i>Project Portfolio</h2>
+
+  
+  <div class="intro">
+      <p>The following are examples of projects spanning my last 8 years of web development. </p>
+      <p>
+          Due to the nature of some of the work, the actual sites are no accessible on the internet. The designs represent the nature of the project
+          to provide some indication of the types of application I have experience working with and creating.</p>
+  </div><!--//intro-->
+  
+  {% for project in site.data.projects %}
+    <div class="item">
+
+      <h3 class="project-title">{% if project.link == '#' %} {{ project.title }} {% else %} <a href="{{ project.link }}" target="_blank" title="{{ project.title }} website link">{{ project.title }}</a> {% endif %} </h3>
+      {% if project.duration %} ({{project.duration}}){% endif %}
+      {% if project.tagline %}
+      <p class="project-tagline">{{ project.tagline }} </p>
+      {% endif %}
+
+      <div class='screenshots'>
+      {% for screenshot in project.screenshots %}
+          <figure class="screenshot-item">
+            <a href="{{site.baseurl}}/assets/images/screenshots/{{screenshot.img}}" title="{{project.title}} - {{screenshot.desc}}"><img src="{{site.baseurl}}/assets/images/screenshots/{{screenshot.img}}" alt="{{project.title}} - {{screenshot.desc}}"></a>
+            <figcaption>{{screenshot.desc}}</figcaption>
+          </figure>   
+      {% endfor %}
+
+      {% if project.screenshots.size < 1  or project.screenshots.size == nil %}
+          <p>Images coming soon</p>
+      {% endif %}
+      </div>
+
+      <div class='skills'>
+          {% for technology in project.technologies %}
+          <span class="badge badge-default">{{technology}}</span>
+          {% endfor %}
+      </div>
+
+      <div class='feedback'>
+          {% if project.feedback.size > 0 %}
+          <h4>Feedback</h4>
+          {% for feedback in project.feedback %}
+          <blockquote>{{feedback.content}} <cite>{{feedback.from}}</cite></blockquote>
+          {% endfor %}
+          {% endif %}
+      </div>
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+
+{% endif %}
+

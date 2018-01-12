@@ -1,0 +1,54 @@
+{% assign firstskill = true %}
+{% if site.data.skills %}
+<section class="skills-section section">
+
+  <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency <a class="text-right" href="{{site.baseurl}}/projects">View Portfolio</a></h2>
+  <h4>Core Skills</h4>
+  <p>
+    Visual representation of core skills showing number of years experience. 
+  </p>
+  <div class="skillset">
+
+    {% for skill in site.data.skills %}
+
+    {% if skill.level > 50 %}
+    <div class="item">
+
+      <h3 class="level-title hidden-xs">{{ skill.name }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner {% if skill.level > 75 %} strong-skill  {% endif %}" data-level="{{ skill.level }}%">
+          <span class="level-title visible-xs">{{skill.name}}</span>
+          <span class="level-description"><span class="length">{{skill.experience-level}}</span></span>
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    {% endif %}
+    {% endfor %}
+    <div class="other-skills">
+      {% for skill in site.data.skills %}
+    
+      
+      {% if skill.level < 50 %}
+      
+      {% if firstskill %}
+      <h4>General Skills</h4>
+
+      <p>
+       Frequently used general development skills showing number of years experience.
+      </p>
+      {% assign firstskill = false %}
+      {% endif %}
+
+        <span class="badge badge-default">{{skill.name}}<span class="length">{{skill.experience-level}}</span></span>
+    
+      {% endif %}
+    
+      {% endfor %}
+    </div>
+
+  </div>
+ 
+</section><!--//skills-section-->
+{% endif %}

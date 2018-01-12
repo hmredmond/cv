@@ -1,0 +1,404 @@
+/* ======= Base ======= */
+body {
+    font-family: 'Roboto', sans-serif;  
+    color: $text-color-secondary;
+    background: $smoky-white;
+    font-size: 14px;
+    padding: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6  {
+    font-weight: 700;
+}
+
+a {
+    color: darken($theme-color, 15%);
+    @include transition (all 0.4s ease-in-out);
+    &:hover {
+        text-decoration: underline;
+        color: darken($theme-color, 30%);
+    }
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+p {
+    line-height: 1.5;
+}
+
+.wrapper {
+    background:$theme-color;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
+}
+
+.sidebar-wrapper {
+    background: $theme-color;
+    position: absolute;
+    right: 0;
+    max-width: 250px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+    ul{
+        margin-bottom:0;
+    }
+    .profile-container{
+
+        a:hover{
+            text-decoration: none;
+            opacity:0.8;    
+        }
+    }
+
+    .container-block {
+        margin: 0 30px;
+        padding: 30px 0;
+    }
+    .container-block-title {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .profile-container {
+        padding: 30px;
+        //background: darken($theme-color, 10%);
+        background: rgba(0, 0, 0, 0.2);
+        text-align: center;
+        color: #fff;
+    }
+
+    .download-container {
+        padding-bottom:0px;
+    }
+    .name {
+        font-size: 32px;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .tagline {
+        color: rgba(256, 256, 256, 0.6);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .profile {
+        margin-bottom: 15px;
+    }
+    .contact-list {
+        .fa {
+            margin-right: 5px;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+        li {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .email {
+            .fa {
+                font-size: 14px;
+            }
+        }
+    }
+   
+    .degree {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .education-container {
+        .item {
+            margin-bottom: 15px;
+           
+            .time:before{
+                content: '(';
+            }
+            .time:after{
+                content: ')';
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .meta {
+            color: rgba(256, 256, 256, 0.6);
+            font-weight: 500;
+            margin-bottom: 0px;
+            margin-top: 0;
+        }
+        .time {
+            color: rgba(256, 256, 256, 0.6);
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+    }
+    .languages-container {
+        .lang-desc {
+            color: rgba(256, 256, 256, 0.6);
+        }
+    }
+    
+    .languages-list {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .interests-list {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.main-wrapper {
+    background: #fff;
+    padding: 60px;
+    padding-right: 300px;
+    .section-title {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 500;
+        color: darken($theme-color, 15%);
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 20px;
+        a{
+            font-size: 1.6rem;
+            text-transform: none;
+            float: right;
+        }
+        .fa {
+            width: 30px;
+            height: 30px;
+            margin-right: 8px;
+            display: inline-block;
+            color: #fff;
+            @include border-radius(50%);
+            background: darken($theme-color, 15%);
+            text-align: center;
+            padding-top: 8px;
+            font-size: 16px;
+            position: relative;
+            top: -2px;
+        }
+
+    }
+    .section {
+        margin-bottom: 60px;
+    }
+    
+    .experiences-section {
+        .item {
+            margin-bottom: 15px;
+            .upper-row{
+                display: flex;
+                align-items: baseline;
+                justify-content: flex-start;
+                *{
+                    padding-right:5px;
+                }
+            }
+        }
+
+        .present-role{
+            border:1px solid lighten($theme-color, 40%);
+            padding:15px;
+        }
+
+        .theme-header{
+            margin-top:0;
+        }
+    }
+    .upper-row {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 2px;
+    }
+    .job-title {
+        color: $text-color;
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+    .time {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: $text-grey;
+    }
+    .company {
+        margin-bottom: 10px;
+        color: $text-grey;
+    }
+    
+    .project-title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 5px;
+        width: auto;
+        display: inline-block;
+    }
+    .projects-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+        .item {
+            margin-bottom: 30px;
+        }
+    }    
+    .badge{
+        margin-bottom:5px;
+    }
+}
+
+dl{
+    margin-bottom:10px;
+    dt.achievement-title{
+        float:left;
+        &:after {
+            content: '-';
+            padding-right: 5px;
+        }
+    }
+}
+
+blockquote{
+    font-size: 1.4rem;
+    cite{
+        display: block;
+        text-align: right;
+        font-size: 1.3rem;
+    }
+}
+
+.navigation-section{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    text-align: right;
+}
+
+.projects-section{
+    .item{
+        padding-bottom: 30px;
+        border-bottom: 1px solid $theme-color;
+        margin-bottom: 30px;
+        &:first-child{
+            border-bottom-width:0;
+        }
+    }
+    .feedback{
+        padding-top:15px;
+    }
+    .screenshots{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .screenshot-item{
+        max-width: 50%;
+        padding: 15px;
+        img{
+            max-width: 100%;
+            max-height: 200px;
+        }
+        
+    }
+}
+.skillset {
+    .item {
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+    .item +h4 {
+        margin-top:30px;
+    }
+    .level-title {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    .level-bar {
+        height: 12px;
+        background: $smoky-white;
+    }
+    .level-bar-inner {
+        height: 12px;
+        background: lighten($theme-color,2%);
+        .level-description{
+            color:$lighter-grey;
+            float:right;
+            line-height:1.1rem;
+            font-size:1.1rem;
+            padding-right:8px;
+            opacity: 0;
+        }   
+    }
+    .other-skills{
+        margin-top:30px;
+        .length{
+            padding-left:5px;
+            opacity:0.7;
+            &:before{
+                content: "(";
+            }
+            &:after{
+                content: ")";
+            }
+        }
+    }
+}
+
+
+.footer {
+    padding: 30px;
+    padding-top: 60px;
+    .copyright {
+        line-height: 1.6;
+        color: $text-color-secondary;
+        font-size: 13px;       
+    }  
+}
+
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+
+/* 
+used for profile image
+*/
+.profile-img {
+    max-width: 150px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+   
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  
