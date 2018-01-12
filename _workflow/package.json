@@ -1,10 +1,10 @@
 {
-  "name": "creative-gulp-UI-workflow",
+  "name": "gulp-UI-workflow",
   "version": "0.0.1",
   "description": "creative UI Workflow tasks based on Gulp",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp babel && gulp uglify && jekyll serve --config _config.yml -d _site",
+    "start": "jekyll server --port 8080",
     "deploy": "gulp jshint:scripts && gulp babel && gulp uglify && jekyll build",
     "sass": "gulp styles",
     "serve": "gulp styles | npm run deploy | npm run start && npm run watch",
