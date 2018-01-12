@@ -1,21 +1,12 @@
-- intro:
-  description: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-  show: true
-
 - project:
   title: NCSC
   duration: 8 months
   link: 'http://www.ncsc.gov.uk'
   screenshots:
-  - img: ncsc_home_page.jpg
-    desc: Site in situ 
-  - img: ncsc_home_page_mobile.jpg
-    desc: Site in situ (mobile)
-  - img: ncsc_ui_toolkit_1.jpg
-    desc: screenshot of the style guide here. 
-  - img: UI_Toolkit_NCSC_2.jpg
-    desc: screenshot of the style guide here. 
+  - img: ncsc_samples.jpg
+    desc: Examples of site on different devices
+  - img: ui_toolkit_ncsc.png
+    desc: Sample page of the style guide expanded code section as well as rendered example. 
   tagline: "Provided living style guide for developers to build the actual site from."
   technologies:
   - HTML / CSS
@@ -28,19 +19,64 @@
   link: '#'
   screenshots:
   - img: chat_home_fullscreen.jpeg
-    desc: first image of project
+    desc: Main Chat window
   tagline: "A chat application for secure conversations. Bespoke functionality."
   technologies: 
   - AngularJs
   - HTML / CSS3
   - Socket.IO
-  - XMPPP
+  - XMPP
   - strophe
   - openfire
+- project:
+  title: Bespoke OS Desktop Skin
+  duration: 3 months
+  link: '#'
+  screenshots:
+  - img: os_desktop.png
+    desc: Sample design of desktop appearance which was recreated in HTML and CSS. 
+  - img: os_component.jpg
+    desc: Sample design of desktop appearance which was recreated in HTML and CSS. 
+  tagline: "An Operating system for secure environments with bespoke web based UI."
+  technologies: 
+  - Ractive
+  - HTML / CSS3
+- project:
+  title: Workflow Application
+  duration: 3 months
+  link: '#'
+  screenshots:
+  tagline: "Document Workflow UI"
+  screenshots:
+  - img: workflow_2.png
+    desc: Workflow file upload screen
+  - img: workflow_1.png
+    desc: File workflow management screen
+  technologies: 
+  - AngularJS
+  - HTML / CSS3
+- project:
+  title: Various Components
+  duration: 8 months
+  screenshots:
+  - img: component_1.jpg
+    desc: Justification component
+  - img: component_2.jpg
+    desc: Notifications component
+  link: '#'
+  tagline: "Various components to be integrated into multiple larger applications."
+  technologies: 
+  - ReactJS
+  - HTML / CSS3
 - project:
   title: Cyber Essentials
   duration: 3 months
   link: http://www.cyberessentials.ncsc.gov.uk
+  screenshots:
+    - img: cyberessentials_2.png
+      desc: Cyber Essentials Homepage (full screen)
+    - img: cyberessentials_1.png
+      desc: Cyber Essentials Content page (mobile)
   technologies: 
   - Jekyll
   - Docker
@@ -52,6 +88,9 @@
   title: Cyber First (2018 Competition)
   duration: 3 months
   link: http://www.cyberfirst.ncsc.gov.uk
+  screenshots:
+    - img: cyberfirst.jpg
+      desc: Cyber First Competition Homepage (full screen, 2018)
   technologies: 
   - Jekyll
   - Docker
@@ -68,16 +107,21 @@
   - HighCharts
   screenshots:
     - img: intelreveal_1.jpg
-      desc: IntelReveal 1
+      desc: IntelReveal search results and mapping data page. 
     - img: intelreveal_2.jpg
-      desc: IntelReveal 2
-    - img: intelreveal_3.jpg
-      desc: IntelReveal 3
+      desc: Dashboard display 2 - filter contents on map and associated side panel 
     - img: intelreveal_4.jpg
-      desc: IntelReveal 4
+      desc: Dashboard display 3 - using open maps API and Highcharts.
 - project:
   title: CommsReveal
-  duration: 3 weeks
+  duration: 4 months
+  screenshots:
+  - img: Coms_1.1_screen.jpg
+    desc: Analysis page with interactive time range selector, and automatic 'play' option to show data changes in the chart over the highlighted time. 
+  - img: Coms_1.2_screen.jpg
+    desc: Responsive grid dashboard. 
+  - img: Coms_1.4_screen.jpg
+    desc: Projection chart
   technologies: 
   - HTML / CSS
   - AngularJs

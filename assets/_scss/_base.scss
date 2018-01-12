@@ -259,17 +259,19 @@ p {
     }
     
     .project-title {
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: 600;
         margin-top: 0;
         margin-bottom: 5px;
+        width: auto;
+        display: inline-block;
     }
     .projects-section {
         .intro {
             margin-bottom: 30px;
         }
         .item {
-            margin-bottom: 15px;
+            margin-bottom: 30px;
         }
     }    
     .badge{
@@ -297,10 +299,14 @@ dl{
 
 .projects-section{
     .item{
-        padding-bottom: 16px;
+        padding-bottom: 30px;
         border-bottom: 1px solid $theme-color;
         margin-bottom: 30px;
+        &:first-child{
+            border-bottom-width:0;
+        }
     }
+
     .screenshots{
         display: flex;
         flex-wrap: wrap;

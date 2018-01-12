@@ -1,34 +1,37 @@
 {% if site.data.projects %}
-{% for intro in site.data.projects %}
-
-{% if intro.show == true %}
 
 <section class="section projects-section">
 
   <h2 class="section-title"><i class="fa fa-archive"></i>Project Portfolio</h2>
 
-  {% for intro in site.data.projects %}
+  
   <div class="intro">
-      <p>{{ intro.description }}</p>
+      <p>The following are examples of projects spanning my last 8 years of web development. </p>
+      <p>
+          Due to the nature of some of the work, the actual sites are no accessible on the internet. The designs represent the nature of the project
+          to provide some indication of the types of application I have experience working with and creating.</p>
   </div><!--//intro-->
-  {% endfor%}
-
+  
   {% for project in site.data.projects %}
     <div class="item">
 
-      <span class="project-title">{% if project.link == '#' %} {{ project.title }} {% else %} <a href="{{ project.link }}" target="_blank" title="{{ project.title }} website link">{{ project.title }}</a> {% endif %} </span>
+      <h3 class="project-title">{% if project.link == '#' %} {{ project.title }} {% else %} <a href="{{ project.link }}" target="_blank" title="{{ project.title }} website link">{{ project.title }}</a> {% endif %} </h3>
       {% if project.duration %} ({{project.duration}}){% endif %}
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }} </span>
+      <p class="project-tagline">{{ project.tagline }} </p>
       {% endif %}
 
       <div class='screenshots'>
       {% for screenshot in project.screenshots %}
           <figure class="screenshot-item">
-            <img src='{{site.baseurl}}/assets/images/screenshots/{{screenshot.img}}'/>
+            <a href="{{site.baseurl}}/assets/images/screenshots/{{screenshot.img}}" title="{{project.title}} - {{screenshot.desc}}"><img src="{{site.baseurl}}/assets/images/screenshots/{{screenshot.img}}" alt="{{project.title}} - {{screenshot.desc}}"></a>
             <figcaption>{{screenshot.desc}}</figcaption>
           </figure>   
       {% endfor %}
+
+      {% if project.screenshots.count < 1 %}
+          NO IMAGE
+      {% endif %}
       </div>
 
       <div class='skills'>
@@ -42,8 +45,5 @@
 
 </section><!--//section-->
 
-
 {% endif %}
-{% endfor %}
 
-{% endif %}

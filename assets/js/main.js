@@ -16,6 +16,7 @@ jQuery(document).ready(function($) {
             $(this).find('.level-description').stop(true, true).delay(800).animate({opacity:1}, 300);
         });
 
+        $('.projects-section .screenshots a').simpleLightbox();
     });
    
     $("#change-theme").on('change', function(){
