@@ -290,6 +290,15 @@ dl{
     }
 }
 
+blockquote{
+    font-size: 1.4rem;
+    cite{
+        display: block;
+        text-align: right;
+        font-size: 1.3rem;
+    }
+}
+
 .navigation-section{
     position: relative;
     top: -20px;
@@ -306,7 +315,9 @@ dl{
             border-bottom-width:0;
         }
     }
-
+    .feedback{
+        padding-top:15px;
+    }
     .screenshots{
         display: flex;
         flex-wrap: wrap;

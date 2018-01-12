@@ -223,6 +223,13 @@ dl {
       content: '-';
       padding-right: 5px; }
 
+blockquote {
+  font-size: 1.4rem; }
+  blockquote cite {
+    display: block;
+    text-align: right;
+    font-size: 1.3rem; }
+
 .navigation-section {
   position: relative;
   top: -20px;
@@ -235,6 +242,9 @@ dl {
   margin-bottom: 30px; }
   .projects-section .item:first-child {
     border-bottom-width: 0; }
+
+.projects-section .feedback {
+  padding-top: 15px; }
 
 .projects-section .screenshots {
   display: -webkit-box;

@@ -1,4 +1,39 @@
 - project:
+  title: Cyber Essentials
+  duration: 3 months
+  link: http://www.cyberessentials.ncsc.gov.uk
+  tagline: "Writing a jekyll based website to be edited via a CMS for the Cyber Essentials government team."
+  feedback:
+  screenshots:
+    - img: cyberessentials_2.png
+      desc: Cyber Essentials Homepage (full screen)
+    - img: cyberessentials_1.png
+      desc: Cyber Essentials Content page (mobile)
+  technologies: 
+  - Jekyll
+  - Docker
+  - AWS
+  - HTML / CSS
+  - PHP
+  - Siteleaf
+  - Markdown
+- project:
+  title: Cyber First (2018 Competition)
+  duration: 3 months
+  feedback:
+  link: http://www.cyberfirst.ncsc.gov.uk
+  screenshots:
+    - img: cyberfirst.jpg
+      desc: Cyber First Competition Homepage (full screen, 2018)
+  tagline: "Writing a jekyll based website to be edited via a CMS for the New talent government team who run the annual Cyber First girls competition."
+  technologies: 
+  - Jekyll
+  - Docker
+  - AWS
+  - HTML / CSS
+  - PHP
+  - Siteleaf  
+- project:
   title: NCSC
   duration: 8 months
   link: 'http://www.ncsc.gov.uk'
@@ -7,7 +42,8 @@
     desc: Examples of site on different devices
   - img: ui_toolkit_ncsc.png
     desc: Sample page of the style guide expanded code section as well as rendered example. 
-  tagline: "Provided living style guide for developers to build the actual site from."
+  tagline: "Provided living style guide for developers to build the actual site from and supported the integration of the markup into the actual site build."
+  feedback:
   technologies:
   - HTML / CSS
   - Javascript
@@ -21,6 +57,7 @@
   - img: chat_home_fullscreen.jpeg
     desc: Main Chat window
   tagline: "A chat application for secure conversations. Bespoke functionality."
+  feedback:
   technologies: 
   - AngularJs
   - HTML / CSS3
@@ -38,6 +75,7 @@
   - img: os_component.jpg
     desc: Sample design of desktop appearance which was recreated in HTML and CSS. 
   tagline: "An Operating system for secure environments with bespoke web based UI."
+  feedback:
   technologies: 
   - Ractive
   - HTML / CSS3
@@ -46,12 +84,13 @@
   duration: 3 months
   link: '#'
   screenshots:
-  tagline: "Document Workflow UI"
+  tagline: "Document Workflow UI to manage assets and permissions and provide visible feedback when others have updaed content."
   screenshots:
   - img: workflow_2.png
     desc: Workflow file upload screen
   - img: workflow_1.png
     desc: File workflow management screen
+  feedback:
   technologies: 
   - AngularJS
   - HTML / CSS3
@@ -64,47 +103,20 @@
   - img: component_2.jpg
     desc: Notifications component
   link: '#'
-  tagline: "Various components to be integrated into multiple larger applications."
+  tagline: "Various components to be integrated into multiple larger applications. One was to provided a notifications button and dropdown list, the other was a form to provide justification for an action."
+  feedback:
   technologies: 
   - ReactJS
   - HTML / CSS3
 - project:
-  title: Cyber Essentials
-  duration: 3 months
-  link: http://www.cyberessentials.ncsc.gov.uk
-  screenshots:
-    - img: cyberessentials_2.png
-      desc: Cyber Essentials Homepage (full screen)
-    - img: cyberessentials_1.png
-      desc: Cyber Essentials Content page (mobile)
-  technologies: 
-  - Jekyll
-  - Docker
-  - AWS
-  - HTML / CSS
-  - PHP
-  - Siteleaf
-- project:
-  title: Cyber First (2018 Competition)
-  duration: 3 months
-  link: http://www.cyberfirst.ncsc.gov.uk
-  screenshots:
-    - img: cyberfirst.jpg
-      desc: Cyber First Competition Homepage (full screen, 2018)
-  technologies: 
-  - Jekyll
-  - Docker
-  - AWS
-  - HTML / CSS
-  - PHP
-  - Siteleaf  
-- project:
   title: IntelReveal
   duration: 3 weeks
+  tagline: "A rapid build prototype for a UI to allow searching for data, mapping data and visually displaying links between data on graphs and maps."
   technologies: 
   - HTML / CSS
   - AngularJs
   - HighCharts
+  feedback:
   screenshots:
     - img: intelreveal_1.jpg
       desc: IntelReveal search results and mapping data page. 
@@ -115,6 +127,7 @@
 - project:
   title: CommsReveal
   duration: 4 months
+  tagline: "A analytics tool to map and visualise current data and provide preditions for future data trends based on changing factors."
   screenshots:
   - img: Coms_1.1_screen.jpg
     desc: Analysis page with interactive time range selector, and automatic 'play' option to show data changes in the chart over the highlighted time. 
@@ -122,13 +135,16 @@
     desc: Responsive grid dashboard. 
   - img: Coms_1.4_screen.jpg
     desc: Projection chart
+  feedback:
   technologies: 
   - HTML / CSS
   - AngularJs
   - HighCharts
 - project:
+  tagline: "Fully managing the primary website for Symantec.Cloud. The project went through 3 facelifts over a 4 year period. The site was build on a bespoke CMS written in C# which was developed and extended by myself to meet the requirements of the marketing team."
   title: Symantec.Cloud
   duration: 4 Years
+  feedback:
   technologies: 
   - HTML / CSS
   - HighCharts

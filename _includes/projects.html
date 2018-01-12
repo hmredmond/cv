@@ -29,7 +29,7 @@
           </figure>   
       {% endfor %}
 
-      {% if project.screenshots.count < 1 %}
+      {% if project.screenshots.size < 1  or project.screenshots.size == nil %}
           NO IMAGE
       {% endif %}
       </div>
@@ -38,6 +38,15 @@
           {% for technology in project.technologies %}
           <span class="badge badge-default">{{technology}}</span>
           {% endfor %}
+      </div>
+
+      <div class='feedback'>
+          {% if project.feedback.size > 0 %}
+          <h4>Feedback</h4>
+          {% for feedback in project.feedback %}
+          <blockquote>{{feedback.content}} <cite>{{feedback.from}}</cite></blockquote>
+          {% endfor %}
+          {% endif %}
       </div>
 
     </div><!--//item-->
