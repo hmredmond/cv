@@ -2,7 +2,7 @@
   title: Cyber Essentials
   duration: 3 months
   link: http://www.cyberessentials.ncsc.gov.uk
-  tagline: "Writing a jekyll based website to be edited via a CMS for the Cyber Essentials government team."
+  tagline: "A jekyll based website to be edited via a CMS for the Cyber Essentials government team."
   feedback:
   screenshots:
     - img: cyberessentials_2.png
@@ -25,7 +25,7 @@
   screenshots:
     - img: cyberfirst.jpg
       desc: Cyber First Competition Homepage (full screen, 2018)
-  tagline: "Writing a jekyll based website to be edited via a CMS for the New talent government team who run the annual Cyber First girls competition."
+  tagline: "A jekyll based website to be edited via a CMS for the New talent government team who run the annual Cyber First girls competition."
   technologies: 
   - Jekyll
   - Docker
