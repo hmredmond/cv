@@ -15,7 +15,12 @@ style: aqua
 name: Hannah Redmond
 tagline: Lead Front End Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Highly motivated and enthusiastic lead front end developer with 15 years’ commercial experience working in the fast paced world of software and web development. Principal skills offered include excellent front end development and full stack knowledge combined with technical proficiency and proven abilities in communication, teamwork and time management. '
+summary: 'A highly motivated, hard working and enthusiastic lead front end developer with fifteen years’ commercial experience working in software and web development. 
+<p>Principal skills offered include excellent front end development skills using the latest front end technologies. 
+Proven abilities in communication, teamwork, problem solving, time management and sharing knowledge and skills having worked on a large number of diverse projects.</p>
+<p>Now specialised in the field of user interface development working closely with user experience and design teams to produce high quality and technically proficient
+accessible web applications and sites.</p> 
+'
 
 #sidebar links
 email: hmredmond@hotmail.com
