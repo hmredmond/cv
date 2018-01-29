@@ -2,40 +2,56 @@
   role: Lead Front End Developer
   time: Jan 2013 - Present
   company: BAE Systems, Gloucester 
-  details: "<ul>
-  <li>Lead front end developer in the Digital Media UX and design team in BAESystems Applied Intelligence. </li>
-<li>Work on a variety of internal and commercial agile projects including global finance, transportation and local government client. Examples include: Bespoke chat application, process flow management applications, UI code for customer facing government CMS based websites and mobile applications.</li>
-<li>Exposure to cutting edge User Interface technologies, languages, libraries and work flow solutions. </li>
-<li>	Development of internal front end development standards and mentoring of junior front end developers. </li>
-<li>	Research and development into responsive design verses desktop centric web design and development resulting in the production of an internal white paper for a telecom client. </li></ul>
+  details: "Lead front end developer in the Digital Media UX and design team at BAESystems Applied Intelligence. 
+  <ul>
+<li>Involved in a variety of internal and commercial agile projects including global finance, transportation and local government client. Examples include: Bespoke chat application, process flow management applications, UI code for customer facing government CMS based websites and mobile applications.</li>
+<li>Exposure and implementation of the most cutting edge User Interface technologies, languages, libraries and work flow solutions. </li>
+<li>Development of internal front end development standards and mentoring of junior front end developers. </li>
+<li>Research and development into responsive design verses desktop centric web design and development resulting in the production of an internal white paper for a telecom client. </li>
+<li>Involvement in 'Hackathons' both internally and for external clients to demonstrate innovation and provide tangible proof of concept applications showing technical uses for cutting edge techology (E.g. Virtual Reality).</li>
+</ul>
 "
 - experience:
   role: Senior Software Engineer
   time: Feb 2009 – Jan 2013 
   company: Symantec, Gloucester 
-  details: "<ul><li>Lead web developer on SymantecCloud.com</li>
-  <li>Managing, developing and supporting the site. Developed bespoke content management system. (Decommissioned May 2013. Domain now redirects to Symantec.com)</li>
-<li>Development of client facing management console for Symantec.Cloud services (CMES).</li>
-<li>	Working constantly and successfully, multitasking, prioritising and meeting critical deadlines with global clients and in a global team of developers. </li>
-
+  details: "
+  Full stack development (SQL, HTML/CSS, C#, JavaScript) of the corporate website, working closely with the global marketing team to provide functionality and support. 
+  <ul><li>Lead web developer on SymantecCloud.com in a remote distributed team - other team members were located in the Polish office.</li>
+  <li>Managing, developing and supporting the site UI, database, CMS and associated API services. Developed bespoke content management system (C#). (Decommissioned May 2013. Domain now redirects to Symantec.com)</li>
+  <li>Development (C#, HTML, CSS) of client facing management console for Symantec.Cloud services (CMES).</li>
+  <li>Working constantly and successfully, multitasking, prioritising and meeting critical deadlines with global clients and in a global team of developers. </li>
+  <li>Involvedment in FedEx days - intense 24hour periods of innovation and development.</li>
+</ul>
 "
 - experience:
   role: Software Engineer
   time: April 2007 – Feb 2009 
   company: N4 Solutions, Cirencester 
-  details: "Projects included a comparison bills web site and mortgage application software for Nationwide, Barclays bank and HSBC."
+  details: "Primary role as a C# developer gradually evolved into a front end developer role focusing on web development of comparison bills web site using SiteFinity CMS. 
+  Other products worked on included mortgage application software for Nationwide, Barclays bank and HSBC.
+<ul>
+<li>
+R&D using C# 3.5 WPF developing a new core product administration tool and rules expression editor.</li><li>
+Development of C# 3.5 WCF services and service test harness applications with comprehensive N-unit tests.</li><li>
+Strong emphasis on test driven development, the use of development design patterns and documented peer code reviews.</li><li>
+Agile approach including analysis, design documentation and testing of web services.</li>
+</ul>
+
+  
+  "
 - experience:
   role: Analyst programmer
   time: Feb 2004 – April 2007 
   company: Messagelabs, Gloucester 
-  details: ""
+  details: "Web Applications / Web Service development for Business facing systems - Developing two and three tier internal systems websites and web services using VB6, VB.Net, C#.Net, HTML, XML, JavaScript, IIS, SQL Server."
 - experience:
   role: Applications Developer
   time: Jul 2003 – Feb 2004 
   company: Web & IT Services, Cardiff 
-  details: ""
+  details: "Web development of customer facing ERP portals using VB6, ASP, HTML, XML, JavaScript."
 - experience:
   role: Computer programmer
   time: Jan 2002 – Jul 2003 
   company: MSA Focus, Cardiff 
-  details: ""
+  details: "Web application development using HTML, ASP.net (vb). Application support of legacy TV broadcasting systems using ProIV (4th GL based on Basic)."
