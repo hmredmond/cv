@@ -3,7 +3,11 @@ jQuery(document).ready(function($) {
     $('.level-bar-inner').css('width', '0');
     
     $(window).on('load', function() {
-
+    
+        $('a_[target="_blank"]').each(function(){
+            $(this).append('<i><hr><hr><hr><hr><hr></i>');
+        })
+    
         $('.level-bar-inner').each(function() {
         
             var itemWidth = $(this).data('level');

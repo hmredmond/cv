@@ -337,6 +337,171 @@ blockquote{
     text-align: right;
 }
 
+.interests-list{
+    a {
+        position: relative;
+        display: inline-block;
+        
+        border-bottom: solid 1px lighten($theme-color,20%);
+        text-decoration: none;
+        white-space: nowrap;
+
+        &::before, &::after {
+            content: '';
+
+            position: absolute;
+            bottom: -1px;
+
+            width: 0;
+            height: 1px;
+        }
+
+        &::before {
+            left: 0;
+            background: transparent;
+            transition: width 0s, height .22s, background .44s;
+        }
+
+   
+        &:hover {
+            text-decoration: none;
+            &::before {
+                width: 100%;
+                background: darken($theme-color,20%);
+                transition: width .44s, height .22s;
+            }
+
+       
+        }
+    }
+
+    a > i {
+        position: absolute;
+        right: -32px;
+        bottom: 22px;
+        
+        width: 18px;
+        height: 18px;
+        
+        overflow: hidden;
+
+        opacity: 0;
+        
+        pointer-events: none;
+        
+        transition: opacity .33s 0s;
+        
+        hr {
+            position: absolute;
+            
+            margin: 0;
+            
+            background: rgba(0,0,0,.75);
+            border: none;
+            
+            transition: transform .075s .2s, width .1s .2s, height .1s .2s;
+            
+            &:nth-of-type(1) { // bottom
+                bottom: 0;
+                transform: translate3d(-100%,0,0);
+            }
+            
+            &:nth-of-type(2) { // right
+                right: 0;
+                transform: translate3d(0,110%,0);
+            }
+            
+            &:nth-of-type(3) { // top
+                top: 0;
+                transform: translate3d(100%,0,0);
+            }
+            
+            &:nth-of-type(4) { // left
+                left: 0;
+                transform: translate3d(0,-110%,0);
+            }
+            
+            &:nth-of-type(1), &:nth-of-type(3) { // bottom & top
+                left: 0;			
+                width: 100%;
+                height: 1px;
+            }
+            
+            &:nth-of-type(2), &:nth-of-type(4) { // right & left
+                bottom: 1px;
+                width: 1px;
+                height: calc(100% - 2px);
+            }
+            
+            &:nth-of-type(5) { // arrow - top line
+                position: absolute;
+                top: 0;
+                right: 0;
+                
+                transform: translate3d(-22px,22px,0);
+                
+                width: 6px;
+                height: 1px;
+                
+                overflow: visible;
+                
+                background: rgba(0,0,0,.75);
+                
+                &::before, &::after { // arrow - right + 45deg line
+                    content: '';
+                    
+                    position: absolute;
+                    top: 1px;
+                    right: 0;
+                    
+                    width: 1px;
+                    height: 5px;
+                    
+                    background: rgba(0,0,0,.75);
+                }
+                
+                &::after { // arrow - 45deg line				
+                    transform: rotateZ(45deg) translate3d(-25%,1px,0);
+                    transform-origin: top right;
+                    height: 10px;
+                }
+            }
+        }
+    }
+
+    a:hover > i {
+        opacity: 1;
+        transition: opacity 0s;
+        
+        hr {
+            transform: translate3d(0,0,0);
+            
+            &:nth-of-type(1) {
+                transition-delay: .3s;
+            }
+            
+            &:nth-of-type(2) {
+                height: 6px;
+                transition: transform .075s .375s, height .44s .5s;
+            }
+            
+            &:nth-of-type(3) {
+                width: 7px;
+                transition: transform .075s .45s, width .44s .5s;
+            }
+            
+            &:nth-of-type(4) {
+                transition-delay: .525s;
+            }
+            
+            &:nth-of-type(5) {
+                transition: transform .5s .5s;
+            }
+        }
+    }
+
+}
+
 .skillset {
     .item {
         margin-bottom: 15px;
