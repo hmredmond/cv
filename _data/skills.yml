@@ -7,21 +7,21 @@
   level: 98
   experience-level: 15yrs
 - skill:
-  name: AngularJS
-  level: 90
-  experience-level: 4yrs
-- skill:
-  name: Angular2+
-  level: 90
-  experience-level: 2yrs
-- skill:
   name: ReactJS
-  level: 65
-  experience-level: 2yrs
+  level: 85
+  experience-level: 5yrs
 - skill:
   name: CSS Compilers (SASS)
   level: 95
-  experience-level: 6yrs
+  experience-level: 8yrs
+- skill:
+  name: AngularJS
+  level: 70
+  experience-level: 4yrs
+- skill:
+  name: Angular2+
+  level:80
+  experience-level: 2yrs
 - skill:
   name: Gulp, Grunt
   level: 85
@@ -33,11 +33,11 @@
 - skill:
   name: Webpack
   level: 49
-  experience-level: 1yr
+  experience-level: 3yr
 - skill:
   name: Git
-  level: 49
-  experience-level: 5yrs
+  level: 85
+  experience-level: 7yrs
 - skill:
   name: Agile Methodologies
   level: 49
@@ -52,7 +52,7 @@
   experience-level: 1yr
 - skill:
   name: WC3 Accessibility
-  level: 49
+  level: 59
   experience-level: 8yrs
 - skill:
   name: Responsive Web Development
