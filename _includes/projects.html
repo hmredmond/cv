@@ -15,7 +15,7 @@
     <div class="item">
 
       <h3 class="project-title">{% if project.link == '#' %} {{ project.title }} {% else %} <a href="{{ project.link }}" target="_blank" title="{{ project.title }} website link">{{ project.title }}</a> {% endif %} </h3>
-      {% if project.duration %} ({{project.duration}}){% endif %}
+      {% if project.duration %}&nbsp;({{project.duration}}){% endif %}
       {% if project.tagline %}
       <p class="project-tagline">{{ project.tagline }} </p>
       {% endif %}
