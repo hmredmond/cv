@@ -1,5 +1,5 @@
 # Site Settings
-title: Curriculum Vitae - Hannah Redmond - Lead Front End Developer
+title: Curriculum Vitae - Hannah Redmond - Senior Front End Developer
 url: 'http://hmredmond.github.io'
 baseurl: '/cv' #change it according to your repository name
 profile-name: Hannah Redmond #Your name
@@ -13,9 +13,9 @@ style: aqua
 
 #Profile information
 name: Hannah Redmond
-tagline: Lead Front End Developer
+tagline: Senior Front End Developer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'A highly motivated, hard working and enthusiastic lead front end developer with fifteen years’ commercial experience working in software and web development. 
+summary: 'A highly motivated, hard working and enthusiastic lead front end developer with seventeen years’ commercial experience working in software and web development. 
 <p>Principal skills offered include excellent front end development skills using the latest front end technologies. 
 Proven abilities in communication, teamwork, problem solving, time management and sharing knowledge and skills having worked on a large number of diverse projects.</p>
 <p>Now specialised in the field of user interface development working closely with user experience and design teams to produce high quality and technically proficient
@@ -29,7 +29,7 @@ website: #hannahredmond.co.uk #do not add http://
 linkedin: hannah-redmond-4511251
 github: hmredmond
 twitter: '@hmredmond'
-cv: hannah_redmond_fed_cv.doc
+cv: hannah_redmond_fed_cv.pdf
 #Update all the sections by editing the files inside _data folder.
 
 # Tracker
