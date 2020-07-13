@@ -1,4 +1,19 @@
 - project:
+  title: Velo Payments
+  duration: 2 years
+  link: n/a
+  tagline: "."
+  feedback:
+  screenshots:
+    - img: velo-sample.jpg
+      desc: Velo UI sample page (full screen)
+  technologies: 
+  - ReactJS
+  - HTML / CSS
+  - Docker
+  - Storybook
+  - React Testing Library
+ - project:
   title: Cyber Essentials
   duration: 3 months
   link: http://www.cyberessentials.ncsc.gov.uk
