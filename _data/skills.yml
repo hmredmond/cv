@@ -1,19 +1,19 @@
 - skill:
   name: POSH (Plain Old Semantic HTML) & CSS
   level: 98
-  experience-level: 15yrs
+  experience-level: 17yrs
 - skill:
   name: Javascript & jQuery
   level: 98
   experience-level: 15yrs
 - skill:
   name: ReactJS
-  level: 85
-  experience-level: 5yrs
+  level: 90
+  experience-level: 6yrs
 - skill:
   name: CSS Compilers (SASS)
   level: 95
-  experience-level: 8yrs
+  experience-level: 9yrs
 - skill:
   name: AngularJS
   level: 70
@@ -37,11 +37,11 @@
 - skill:
   name: Git
   level: 85
-  experience-level: 7yrs
+  experience-level: 8yrs
 - skill:
   name: Agile Methodologies
   level: 49
-  experience-level: 6yrs
+  experience-level: 7yrs
 - skill:
   name: Node
   level: 49
@@ -49,15 +49,15 @@
 - skill:
   name: Jekyll
   level: 49
-  experience-level: 1yr
+  experience-level: 2yr
 - skill:
   name: WC3 Accessibility
   level: 59
-  experience-level: 8yrs
+  experience-level: 9yrs
 - skill:
   name: Responsive Web Development
   level: 49
-  experience-level: 6yrs
+  experience-level: 7yrs
 - skill:
   name: JSON
   level: 49
@@ -79,9 +79,17 @@
   level: 49
   experience-level: 15yrs
 - skill:
+  name: Storybook
+  level: 49
+  experience-level: 2yrs
+- skill:
+  name: React Testing Library
+  level: 49
+  experience-level: 2yrs
+- skill:
   name: docker
   level: 49
-  experience-level: 1yr
+  experience-level: 2yr
 - skill:
   name: vue
   level: 49
