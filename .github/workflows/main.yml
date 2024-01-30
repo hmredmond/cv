@@ -11,4 +11,4 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             --standalone
             --output=./docs/readme.md
-            readme.md
+            README.md
