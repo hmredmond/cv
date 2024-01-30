@@ -11,5 +11,5 @@ jobs:
         with:
           args: >-  # allows you to break string into multiple lines
             --standalone
-            --output=index.html
+            --output=index-test.html
             input.txt
