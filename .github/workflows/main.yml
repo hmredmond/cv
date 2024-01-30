@@ -1,15 +1,14 @@
-name: Long Usage
+name: Copy Documents For Backstage
 
 on: push
 
 jobs:
-  convert_via_pandoc:
+  copy_do_docs_folder:
     runs-on: ubuntu-22.04
     steps:
-      - run: echo "foo" > input.txt  # create an example file
       - uses: docker://pandoc/core:2.9
         with:
           args: >-  # allows you to break string into multiple lines
             --standalone
-            --output=index-test.html
-            input.txt
+            --output=./docs/readme.md
+            readme.md
