@@ -22,9 +22,9 @@ jobs:
         run: |
           pandoc -s README.md -o docs/README.md
 
-      - name: Copy LICENSE to docs folder
+      - name: Copy LICENCE to docs folder
         run: |
-          pandoc -s LICENSE.md -o docs/LICENSE.md
+          pandoc -s LICENCE.md -o docs/LICENCE.md
           
       - name: Commit and push changes
         run: |
