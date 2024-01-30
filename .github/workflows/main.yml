@@ -22,6 +22,10 @@ jobs:
         run: |
           pandoc -s README.md -o docs/README.md
 
+      - name: Copy LICENSE to docs folder
+        run: |
+          pandoc -s LICENSE.md -o docs/LICENSE.md
+          
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
