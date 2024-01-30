@@ -1,11 +1,31 @@
-name: Copy Documents For Backstage
+name: Copy README to Docs
 
-on: push
+on:
+  push:
+    branches:
+      - master  # Replace with your branch name
 
 jobs:
-  copy_do_docs_folder:
-    runs-on: ubuntu-22.04
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: docker://pandoc/core:2.9
-        with:
-          args: ./README.md -o ./docs/readme.md
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install pandoc
+        run: |
+          sudo apt-get -y install pandoc  # Install pandoc on Ubuntu
+          # Add commands to install pandoc for other operating systems if needed
+
+      - name: Copy README to docs folder
+        run: |
+          pandoc -s README.md -o docs/README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs
+          git commit -m "Update docs folder with README"
+          git push
